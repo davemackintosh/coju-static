@@ -1,0 +1,24 @@
+{
+  "name": "coju-static",
+  "version": "0.0.1",
+  "description": "Serve static content from a coju powered site",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=development node debug --harmony --use_strict tests/all.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davemackintosh/coju-static/"
+  },
+  "keywords": [
+    "coju",
+    "static"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "simple-cli-dtester": "*"
+  },
+  "author": {
+    "name": "Dave Mackintosh"
+  }
+}
